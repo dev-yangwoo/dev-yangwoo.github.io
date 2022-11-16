@@ -8,3 +8,5 @@ export type TypeBlog = {
   date: string;
   keyword?: { kr: string; en: string }[];
 };
+
+export type TypeFlatList = TypeBlog;

@@ -8,7 +8,6 @@ const ListDetail = () => {
   const [data, setData] = useState(``);
 
   useEffect(() => {
-    // console.log(lists);
     fetch(lists)
       .then((response) => {
         return response.text();
